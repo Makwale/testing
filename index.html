@@ -1,0 +1,182 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Untitled Document</title>
+		<style type="text/css">
+			body{
+				font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+				font-size: 100%;
+				color: #fff;
+				background-image: url("background_img.jpg");
+			}
+			
+			
+			
+			a{
+					color: #fff;
+					text-decoration: none;
+					text-transform: uppercase;
+					font-weight: 200;
+					font-size: 110%;
+			}
+			
+			#logo h2{
+					text-transform: uppercase;
+
+			}
+
+			
+			
+			.content #home img{
+					width: 200px;
+					border-radius: 50%;
+					padding: 4px;
+					border: 2 double red;
+					max-width: 100%;
+			}
+			
+			@media screen and (min-width: 420px){
+				
+
+				#logo{
+					text-align: center;
+				}
+				
+				li{
+					display: inline;
+					margin: 7px;
+
+				}
+				
+				ul{
+					list-style-type: none;
+					width: 70%;
+					margin-left: 13%;
+					margin-right: 10%;
+				}
+				
+				.content{
+					text-align: center;
+					margin: 15% auto auto auto;
+				}
+
+			}
+			
+			@media screen and (min-width: 520px){
+				#logo{
+					float: left;
+					margin-left: 3%;
+					
+				}
+				
+				header{
+					margin-top: 7%;
+					overflow: auto;
+					
+
+				}
+			
+				#nav{
+					float: right;
+					width: 70%;
+					text-align: center;	
+					outline: 1px solid red;
+				}
+				
+				li{
+					float: left;
+					margin: 8px;
+					/*outline: 1px solid green;*/
+					
+				}
+				
+				ul{
+					list-style-type: none;
+					margin-left: 2%;
+					margin-right: 2%;
+					overflow: auto;
+					/*outline: 1px solid white;*/
+					list-style: outside;
+					
+				}
+				
+				.content{
+					text-align: center;
+					margin: 8% auto auto auto;
+				}
+				
+			}
+			
+			@media screen and (min-width: 800px){
+				#logo{
+					float: left;
+					margin-left: 10%;
+	
+				}
+				
+				header{
+					margin-top: 7%;
+					overflow: auto;
+
+				}
+				
+				#nav{
+					float: right;
+					width: 45%;
+					text-align: center;
+				}
+				
+				li{
+					float: left;
+					margin: 10px;
+				}
+				
+				ul{
+					list-style-type: none;
+					margin-left: auto;
+					margin-right: auto;
+					overflow: auto;
+					list-style: outside;
+				}
+				
+				body{
+					max-width: 960px;
+					margin-left: auto;
+					margin-right: auto;
+				}
+				
+				
+			}
+			
+			
+		</style>
+	</head>
+
+	<body>
+		<div class="page_wrapper">
+			<header>
+				<div id="logo">
+					<h2>My Profile</h2>
+					
+				</div>
+				
+				<div id="nav">
+					<ul>
+						<li><a href="" id="aone">Home</a></li>
+						<li><a href="" id="atwo">About</a></li>
+						<li><a href="" id="athree">Contact</a></li>
+					</ul>
+				</div>
+			</header>
+			
+		  <div class="content">
+				<section id="home">
+					<img src="emma.jpg" alt="" width="55%" height="191">
+					<h1>Hello, I'm Emmanuel Mametja</h1>
+					<h3>Software developer</h3>
+				</section>
+			</div>
+		</div>
+	</body>
+</html>
